@@ -1,16 +1,25 @@
 <h1 align="center">Weather Chart Card</h1>
 
-# No Longer Maintained
-This repository is no longer maintained. Feel free to fork it if you find it useful.
+## Neumachen maintenance fork
+
+This fork preserves Weather Chart Card for Neumachen Home Assistant
+installations after the original project was retired. Maintenance is intentionally
+conservative: compatibility and security fixes are in scope, while the public card
+configuration and the `weather-chart-card` custom element remain compatible with
+the final upstream release.
+
+The original project was created by Marc Lamberts and remains available at
+[mlamberts78/weather-chart-card](https://github.com/mlamberts78/weather-chart-card).
+This fork retains the original MIT license and commit history.
 
 [![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/mlamberts7I)
 [![PayPal](https://img.shields.io/badge/Donate-PayPal-blue?logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=HZUUW64FRM2J2)
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/mlamberts78/weather-chart-card?style=flat-square)](https://github.com/mlamberts78/weather-chart-card/releases/latest)
-![GitHub downloads](https://img.shields.io/github/downloads/mlamberts78/weather-chart-card/total?style=flat-square)
-![GitHub release (latest by SemVer including pre-releases)](https://img.shields.io/github/downloads/mlamberts78/weather-chart-card/latest/total)
-[![HACS Validate](https://github.com/mlamberts78/weather-chart-card/actions/workflows/validate.yaml/badge.svg)](https://github.com/mlamberts78/weather-chart-card/actions/workflows/validate.yaml)
+[![GitHub release](https://img.shields.io/github/v/release/neumachen/weather-chart-card?style=flat-square)](https://github.com/neumachen/weather-chart-card/releases/latest)
+![GitHub downloads](https://img.shields.io/github/downloads/neumachen/weather-chart-card/total?style=flat-square)
+[![Build](https://github.com/neumachen/weather-chart-card/actions/workflows/build.yml/badge.svg)](https://github.com/neumachen/weather-chart-card/actions/workflows/build.yml)
+[![HACS Validate](https://github.com/neumachen/weather-chart-card/actions/workflows/validate.yml/badge.svg)](https://github.com/neumachen/weather-chart-card/actions/workflows/validate.yml)
 
 ![weather-chart-card](https://github.com/mlamberts78/weather-chart-card/assets/93537082/bd5b9f6e-4125-4a19-9773-463e6d054bce)
 ![15-days](https://github.com/mlamberts78/weather-chart-card/assets/93537082/f4de6060-7005-4a6d-b1f3-3aa17c856c73)
@@ -19,8 +28,8 @@ This repository is no longer maintained. Feel free to fork it if you find it use
 
 ### HACS
 
-This card is available in HACS (Home Assistant Community Store).
-HACS is a third party community store and is not included in Home Assistant out of the box.
+Add `https://github.com/neumachen/weather-chart-card` as a custom dashboard
+repository in Home Assistant's Marketplace, then install **Weather Chart Card**.
 
 #### Configuration variables:
 

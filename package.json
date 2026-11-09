@@ -1,6 +1,6 @@
 {
   "name": "weather-chart-card",
-  "version": "1.0.1",
+  "version": "2.4.12",
   "description": "Weather card with charts for Home Assistant Lovelace UI",
   "keywords": [
     "home-assistant",
@@ -11,21 +11,29 @@
     "custom-cards"
   ],
   "module": "src/main.js",
-  "repository": "git@github.com:mlamberts78/weather-chart-card.git",
+  "repository": "https://github.com/neumachen/weather-chart-card.git",
+  "homepage": "https://github.com/neumachen/weather-chart-card",
+  "bugs": "https://github.com/neumachen/weather-chart-card/issues",
   "author": "Marc Lamberts",
+  "maintainers": [
+    "Neumachen"
+  ],
   "license": "MIT",
   "dependencies": {
-    "chart.js": "^4.4.1",
-    "chartjs-plugin-datalabels": "^2.2.0",
-    "lit": "^2.8.0",
-    "relative-time": "^1.0.0"
+    "chart.js": "4.4.1",
+    "chartjs-plugin-datalabels": "2.2.0",
+    "lit": "2.8.0",
+    "relative-time": "1.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.56.0",
-    "rollup": "^4.9.6",
-    "rollup-plugin-copy": "^3.5.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-serve": "^2.0.3"
+    "eslint": "8.56.0",
+    "rollup": "4.68.0",
+    "rollup-plugin-copy": "3.5.0",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-serve": "2.0.3"
+  },
+  "overrides": {
+    "@kurkle/color": "0.3.2"
   },
   "scripts": {
     "start": "rollup -c rollup.config.dev.js --watch",
